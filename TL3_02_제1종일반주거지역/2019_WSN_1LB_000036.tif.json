@@ -1,0 +1,64 @@
+{
+	"info": {
+		"info.name": "항공영상 도시건물 변화탐지 데이터",
+		"info.id": "TIFF_CHANGE_safe_01",
+		"info.date_created": "2021-04-09 09:00:00",
+		"info.src_path": "/dataSet/change",
+		"info.label_path": "/dataSet/change",
+		"info.category": 2,
+		"info.type": 1
+	},
+	"images": {
+		"images.id": "2019_WSN_1LB_000036.tif",
+		"images.type": "TIF",
+		"images.data_captured": "2021-12-14 15:56:38",
+		"images.size": 1566,
+		"images.width": 1500,
+		"images.height": 750,
+		"images.h_resolution": 150,
+		"images.v_resolution": 150,
+		"images.bit": 24
+	},
+	"annotations": [
+		{
+			"polygon.id": "PLG_000000",
+			"polygon.name": "building",
+			"polygon.points": [
+				[
+					751.3135170979695,
+					347.4917891971096
+				],
+				[
+					969.703279784309,
+					243.90935273609193
+				],
+				[
+					993.96880897168,
+					290.39512909908524
+				],
+				[
+					1061.7100779530908,
+					565.267545854176
+				],
+				[
+					864.1699524779098,
+					668.7880174490087
+				],
+				[
+					811.0857371681486,
+					563.4808913142339
+				],
+				[
+					750.421914199721,
+					594.2187688006334
+				]
+			],
+			"polygon.shape": 1,
+			"polygon.shift": 2,
+			"polygon.updates": [
+				3
+			],
+			"polygon.address": "서울특별시 성동구 마장동 778-1"
+		}
+	]
+}

@@ -1,0 +1,76 @@
+{
+	"info": {
+		"info.name": "항공영상 도시건물 변화탐지 데이터",
+		"info.id": "TIFF_CHANGE_safe_01",
+		"info.date_created": "2021-04-09 09:00:00",
+		"info.src_path": "/dataSet/change",
+		"info.label_path": "/dataSet/change",
+		"info.category": 2,
+		"info.type": 1
+	},
+	"images": {
+		"images.id": "2019_SMG_1LB_000135.tif",
+		"images.type": "TIF",
+		"images.data_captured": "2021-09-28 14:52:45",
+		"images.size": 1408,
+		"images.width": 1508,
+		"images.height": 754,
+		"images.h_resolution": 150,
+		"images.v_resolution": 150,
+		"images.bit": 24
+	},
+	"annotations": [
+		{
+			"polygon.id": "PLG_000000",
+			"polygon.name": "building",
+			"polygon.points": [
+				[
+					874.7973853786666,
+					753.3986263298111
+				],
+				[
+					880.8621098733983,
+					672.9031921270089
+				],
+				[
+					908.980377985336,
+					675.6598850791596
+				],
+				[
+					908.980377985336,
+					667.3898062227073
+				],
+				[
+					931.5852601929723,
+					667.3898062227073
+				],
+				[
+					930.482583012112,
+					676.76256226002
+				],
+				[
+					1042.955655459863,
+					678.4165780313103
+				],
+				[
+					1041.3016396885725,
+					728.5883897604542
+				],
+				[
+					1012.0806943957745,
+					729.6910669413146
+				],
+				[
+					1012.6320329862046,
+					755.6039806915317
+				]
+			],
+			"polygon.shape": 1,
+			"polygon.shift": 2,
+			"polygon.updates": [
+				2
+			],
+			"polygon.address": "서울특별시 서대문구 홍제1동 156-292"
+		}
+	]
+}

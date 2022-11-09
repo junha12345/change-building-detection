@@ -1,0 +1,56 @@
+{
+	"info": {
+		"info.name": "항공영상 도시건물 변화탐지 데이터",
+		"info.id": "TIFF_CHANGE_safe_01",
+		"info.date_created": "2021-04-09 09:00:00",
+		"info.src_path": "/dataSet/change",
+		"info.label_path": "/dataSet/change",
+		"info.category": 2,
+		"info.type": 1
+	},
+	"images": {
+		"images.id": "2019_SMG_1LB_000120.tif",
+		"images.type": "TIF",
+		"images.data_captured": "2021-09-28 14:52:44",
+		"images.size": 1739,
+		"images.width": 1508,
+		"images.height": 754,
+		"images.h_resolution": 150,
+		"images.v_resolution": 150,
+		"images.bit": 24
+	},
+	"annotations": [
+		{
+			"polygon.id": "PLG_000000",
+			"polygon.name": "building",
+			"polygon.points": [
+				[
+					1320.6009717068205,
+					750.8901268980006
+				],
+				[
+					1354.6001847833465,
+					705.4046931875131
+				],
+				[
+					1343.5734129747434,
+					701.2696537592869
+				],
+				[
+					1361.0324683383649,
+					676.4594171899302
+				],
+				[
+					1464.8679028693768,
+					750.8901268980006
+				]
+			],
+			"polygon.shape": 1,
+			"polygon.shift": 2,
+			"polygon.updates": [
+				3
+			],
+			"polygon.address": "서울특별시 서대문구 홍제1동 308-7"
+		}
+	]
+}

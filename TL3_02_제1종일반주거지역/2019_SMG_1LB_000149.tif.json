@@ -1,0 +1,86 @@
+{
+	"info": {
+		"info.name": "항공영상 도시건물 변화탐지 데이터",
+		"info.id": "TIFF_CHANGE_safe_01",
+		"info.date_created": "2021-04-09 09:00:00",
+		"info.src_path": "/dataSet/change",
+		"info.label_path": "/dataSet/change",
+		"info.category": 2,
+		"info.type": 1
+	},
+	"images": {
+		"images.id": "2019_SMG_1LB_000149.tif",
+		"images.type": "TIF",
+		"images.data_captured": "2021-09-28 14:52:46",
+		"images.size": 1912,
+		"images.width": 1508,
+		"images.height": 754,
+		"images.h_resolution": 150,
+		"images.v_resolution": 150,
+		"images.bit": 24
+	},
+	"annotations": [
+		{
+			"polygon.id": "PLG_000000",
+			"polygon.name": "building",
+			"polygon.points": [
+				[
+					1024.0547124711081,
+					4.178047045572793
+				],
+				[
+					1015.5464008903958,
+					31.298290209093008
+				],
+				[
+					1084.4105477467854,
+					52.56906916087357
+				],
+				[
+					1092.1212051168059,
+					22.25820915458627
+				],
+				[
+					1085.7399714312717,
+					3.114508097983766
+				]
+			],
+			"polygon.shape": 1,
+			"polygon.shift": 0,
+			"polygon.address": "서울특별시 서대문구 신촌동 51"
+		},
+		{
+			"polygon.id": "PLG_000001",
+			"polygon.name": "building",
+			"polygon.points": [
+				[
+					1109.4037130151276,
+					3.6462775717782776
+				],
+				[
+					1128.2815293348328,
+					43.528988106366825
+				],
+				[
+					1156.465311445942,
+					31.564174945990263
+				],
+				[
+					1169.759548290805,
+					60.54561126779127
+				],
+				[
+					1199.0068693495032,
+					49.11256758120922
+				],
+				[
+					1179.3313988191062,
+					2.3168538872919946
+				]
+			],
+			"polygon.shape": 1,
+			"polygon.shift": 0,
+			"polygon.address": "서울특별시 서대문구 신촌동 51"
+		}
+	]
+}

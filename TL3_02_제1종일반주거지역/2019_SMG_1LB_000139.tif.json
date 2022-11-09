@@ -1,0 +1,60 @@
+{
+	"info": {
+		"info.name": "항공영상 도시건물 변화탐지 데이터",
+		"info.id": "TIFF_CHANGE_safe_01",
+		"info.date_created": "2021-04-09 09:00:00",
+		"info.src_path": "/dataSet/change",
+		"info.label_path": "/dataSet/change",
+		"info.category": 2,
+		"info.type": 1
+	},
+	"images": {
+		"images.id": "2019_SMG_1LB_000139.tif",
+		"images.type": "TIF",
+		"images.data_captured": "2021-09-28 14:52:45",
+		"images.size": 1840,
+		"images.width": 1508,
+		"images.height": 754,
+		"images.h_resolution": 150,
+		"images.v_resolution": 150,
+		"images.bit": 24
+	},
+	"annotations": [
+		{
+			"polygon.id": "PLG_000000",
+			"polygon.name": "building",
+			"polygon.points": [
+				[
+					1204.62199744221,
+					751.6822960656759
+				],
+				[
+					1228.8808954211365,
+					716.9479648685764
+				],
+				[
+					1239.3563286393096,
+					723.5640279537382
+				],
+				[
+					1293.9388490918946,
+					645.8252867030868
+				],
+				[
+					1396.4878269119029,
+					721.9100121824478
+				],
+				[
+					1371.677590342546,
+					752.2336346561061
+				]
+			],
+			"polygon.shape": 1,
+			"polygon.shift": 2,
+			"polygon.updates": [
+				0
+			],
+			"polygon.address": "서울특별시 서대문구 신촌동 93-2"
+		}
+	]
+}

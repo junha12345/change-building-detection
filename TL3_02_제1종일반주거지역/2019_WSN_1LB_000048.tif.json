@@ -1,0 +1,76 @@
+{
+	"info": {
+		"info.name": "항공영상 도시건물 변화탐지 데이터",
+		"info.id": "TIFF_CHANGE_safe_01",
+		"info.date_created": "2021-04-09 09:00:00",
+		"info.src_path": "/dataSet/change",
+		"info.label_path": "/dataSet/change",
+		"info.category": 2,
+		"info.type": 1
+	},
+	"images": {
+		"images.id": "2019_WSN_1LB_000048.tif",
+		"images.type": "TIF",
+		"images.data_captured": "2021-12-14 15:56:39",
+		"images.size": 1610,
+		"images.width": 1500,
+		"images.height": 750,
+		"images.h_resolution": 150,
+		"images.v_resolution": 150,
+		"images.bit": 24
+	},
+	"annotations": [
+		{
+			"polygon.id": "PLG_000000",
+			"polygon.name": "building",
+			"polygon.points": [
+				[
+					759.3018272672916,
+					573.485436141007
+				],
+				[
+					843.0290246645994,
+					635.932676469102
+				],
+				[
+					837.9737060838971,
+					651.5121486197429
+				],
+				[
+					856.9311507615308,
+					664.5652198810907
+				],
+				[
+					867.8843410197192,
+					655.7228167685648
+				],
+				[
+					950.0332679561315,
+					715.093237666953
+				],
+				[
+					946.0537211694027,
+					724.7643002711673
+				],
+				[
+					977.9022282278271,
+					748.007188452664
+				],
+				[
+					751.9294876704341,
+					748.5124686305226
+				],
+				[
+					749.4018283800831,
+					584.8016910043289
+				]
+			],
+			"polygon.shape": 1,
+			"polygon.shift": 2,
+			"polygon.updates": [
+				3
+			],
+			"polygon.address": "서울특별시 성동구 마장동 767-1"
+		}
+	]
+}

@@ -1,0 +1,72 @@
+{
+	"info": {
+		"info.name": "항공영상 도시건물 변화탐지 데이터",
+		"info.id": "TIFF_CHANGE_safe_01",
+		"info.date_created": "2021-04-09 09:00:00",
+		"info.src_path": "/dataSet/change",
+		"info.label_path": "/dataSet/change",
+		"info.category": 2,
+		"info.type": 1
+	},
+	"images": {
+		"images.id": "2019_SMG_1LB_000144.tif",
+		"images.type": "TIF",
+		"images.data_captured": "2021-09-28 14:52:46",
+		"images.size": 1588,
+		"images.width": 1508,
+		"images.height": 754,
+		"images.h_resolution": 150,
+		"images.v_resolution": 150,
+		"images.bit": 24
+	},
+	"annotations": [
+		{
+			"polygon.id": "PLG_000000",
+			"polygon.name": "building",
+			"polygon.points": [
+				[
+					824.232950001797,
+					752.8796094129063
+				],
+				[
+					879.8078799171562,
+					684.7341596357396
+				],
+				[
+					897.009643938577,
+					695.3198605719986
+				],
+				[
+					926.7819278218053,
+					654.3002694439951
+				],
+				[
+					989.6345271308426,
+					708.5519867423221
+				],
+				[
+					979.0488261945836,
+					723.7689318381944
+				],
+				[
+					992.2809523649073,
+					736.3394517000017
+				],
+				[
+					998.8970154500691,
+					727.0769633807753
+				],
+				[
+					1038.461072699337,
+					754.7321070767517
+				]
+			],
+			"polygon.shape": 1,
+			"polygon.shift": 2,
+			"polygon.updates": [
+				2
+			],
+			"polygon.address": "서울특별시 서대문구 신촌동 91-9"
+		}
+	]
+}
